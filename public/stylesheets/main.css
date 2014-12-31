@@ -12,7 +12,7 @@ nav {
   border-right: 1px solid rgba(255, 255, 255, 0.53);
 }
 
-.watchtower {
+x-watchtower::shadow svg {
   width: 100%;
   padding-top: 17px;
   padding-bottom: 20px;
@@ -40,3 +40,27 @@ nav .icon-globe {
   font-size: 24px;
   background: rgba(0, 128, 99, 0.1);
 }
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+footer > div {
+  float: right;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.59);
+  font-family: helvetica neue;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+footer chartbeat-logo::shadow svg {
+  height: 13px;
+  width: 87px;
+  margin-left: 3px;
+  position: relative;
+  top: 1px;
+}
+
